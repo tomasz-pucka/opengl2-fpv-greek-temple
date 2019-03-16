@@ -1,6 +1,6 @@
 # OpenGL2 3D Greek Temple First Persion View 
 
-University project for "Computer graphics". 3D greek temple with first person view in written in C++ using OpenGL2, GLM libraries.
+University project for "Computer graphics". 3D greek temple with first person view written in C++ using OpenGL2 and GLM libraries.
 
 ## Prerequisites
 

@@ -1,0 +1,5204 @@
+# depslib dependency file v1.0
+1487675316 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\cube.cpp
+	"cube.h"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\cube.h
+	"model.h"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\simd\integer.h
+
+1487688962 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\constants.h
+
+1487675316 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\detailed_cube.cpp
+	"detailed_cube.h"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\detailed_cube.h
+	"model.h"
+
+1456501319 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1487675316 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\model.cpp
+	"model.h"
+
+1527689108 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1527689108 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\objloader.hpp
+
+1487675316 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\sphere.cpp
+	"sphere.h"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\sphere.h
+	"model.h"
+
+1487675316 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\teapot.cpp
+	"teapot.h"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\teapot.h
+	"model.h"
+
+1487675316 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\torus.cpp
+	"torus.h"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\torus.h
+	"model.h"
+
+1527727630 source:c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+
+1469354378 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+
+1460274702 c:\users\tomasz pucka\desktop\grafika - swiatynia grecka\pl_szkielet03_win\mycube.h
+
+1456501319 source:c:\users\barte\desktop\swiatynia grecka\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\barte\desktop\swiatynia grecka\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1527894426 source:c:\users\barte\desktop\swiatynia grecka\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+
+1469357978 c:\users\barte\desktop\swiatynia grecka\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\barte\desktop\swiatynia grecka\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka\glm\glm\simd\integer.h
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\barte\desktop\swiatynia grecka\constants.h
+
+1527692708 c:\users\barte\desktop\swiatynia grecka\objloader.hpp
+
+1527692708 source:c:\users\barte\desktop\swiatynia grecka\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1456501319 source:c:\users\barte\desktop\swiatynia grecka z chodzeniem\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\barte\desktop\swiatynia grecka z chodzeniem\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1527692708 source:c:\users\barte\desktop\swiatynia grecka z chodzeniem\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\integer.h
+
+1527692708 c:\users\barte\desktop\swiatynia grecka z chodzeniem\objloader.hpp
+
+1529272391 source:c:\users\barte\desktop\swiatynia grecka z chodzeniem\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469357978 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\barte\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\barte\desktop\swiatynia grecka z chodzeniem\constants.h
+
+1456501319 source:d:\downloads\swiatynia grecka z chodzeniem\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 d:\downloads\swiatynia grecka z chodzeniem\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1529272159 source:d:\downloads\swiatynia grecka z chodzeniem\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469354378 d:\downloads\swiatynia grecka z chodzeniem\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 d:\downloads\swiatynia grecka z chodzeniem\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\_swizzle.hpp
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec2.inl
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec3.inl
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x3.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x4.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x2.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x4.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x2.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x3.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec1.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\type_half.inl
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing_simd.inl
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\simd\integer.h
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 d:\downloads\swiatynia grecka z chodzeniem\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 d:\downloads\swiatynia grecka z chodzeniem\constants.h
+
+1527689108 d:\downloads\swiatynia grecka z chodzeniem\objloader.hpp
+
+1527689108 source:d:\downloads\swiatynia grecka z chodzeniem\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1456501319 source:c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1530144944 source:c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\simd\integer.h
+
+1530145062 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\objloader.hpp
+
+1530207217 source:c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469354378 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\tomasz pucka\desktop\swiatynia grecka z chodzeniem\constants.h
+
+1456501319 source:c:\users\tomasz pucka\desktop\swiatynia grecka\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\tomasz pucka\desktop\swiatynia grecka\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1530216432 source:c:\users\tomasz pucka\desktop\swiatynia grecka\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\simd\integer.h
+
+1530145062 c:\users\tomasz pucka\desktop\swiatynia grecka\objloader.hpp
+
+1530229236 source:c:\users\tomasz pucka\desktop\swiatynia grecka\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469354378 c:\users\tomasz pucka\desktop\swiatynia grecka\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\tomasz pucka\desktop\swiatynia grecka\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\tomasz pucka\desktop\swiatynia grecka\constants.h
+
+1456501319 source:c:\users\tomasz pucka\desktop\swiatynia grecka - copy\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1530252490 source:c:\users\tomasz pucka\desktop\swiatynia grecka - copy\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\simd\integer.h
+
+1530145062 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\objloader.hpp
+
+1530229236 source:c:\users\tomasz pucka\desktop\swiatynia grecka - copy\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469354378 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\tomasz pucka\desktop\swiatynia grecka - copy\constants.h
+
+1456501319 source:c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1530253578 source:c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469354378 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\integer.h
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\constants.h
+
+1530145062 c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\objloader.hpp
+
+1530252490 source:c:\users\tomasz pucka\desktop\swiatynia grecka - tomasz pucka, bartek zywicki\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1456497719 source:d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456497724 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1552763064 source:d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"objloader.hpp"
+	<iostream>
+
+1469350778 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487685362 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_swizzle.hpp
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_swizzle_func.hpp
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec2.inl
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec3.inl
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec4_simd.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x3.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat2x4.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x2.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat3x4.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x2.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x3.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_mat4x4_simd.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_vec1.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_vector_relational_simd.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\common.h
+	"platform.h"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\geometric.h
+	"common.h"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_trigonometric_simd.inl
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\type_half.inl
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_packing_simd.inl
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483566164 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566166 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\simd\integer.h
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\constants.inl
+	<limits>
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\quaternion_simd.inl
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485083548 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487671716 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\constants.h
+
+1530141462 d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\objloader.hpp
+
+1530248890 source:d:\[] documents\semestr 4\swiatynia grecka - tomasz pucka, bartek zywicki\objloader.cpp
+	<vector>
+	<stdio.h>
+	<string>
+	<cstring>
+	<glm/glm.hpp>
+	"objloader.hpp"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
